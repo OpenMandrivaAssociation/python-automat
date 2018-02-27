@@ -7,7 +7,7 @@ Group:		Development/Python
 Url:		https://pypi.org/project/Automat/
 Source0:	https://files.pythonhosted.org/packages/de/05/b8e453085cf8a7f27bb1226596f4ccf5cc9e758377d60284f990bbdc592c/Automat-%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python2)
 BuildRequires:	python-setuptools
 BuildRequires:	python2-setuptools
 BuildArch:	noarch
