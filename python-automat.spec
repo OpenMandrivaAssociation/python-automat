@@ -1,11 +1,11 @@
 Summary:	Python library for finite-state machines
 Name:		python-automat
-Version:	0.6.0
-Release:	3
+Version:	0.7.0
+Release:	1
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/Automat/
-Source0:	https://files.pythonhosted.org/packages/de/05/b8e453085cf8a7f27bb1226596f4ccf5cc9e758377d60284f990bbdc592c/Automat-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/4a/4f/64db3ffda8828cb0541fe949354615f39d02f596b4c33fb74863756fc565/Automat-%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(python2)
 BuildRequires:	python-setuptools
