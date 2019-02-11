@@ -10,6 +10,8 @@ BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(python2)
 BuildRequires:	python-setuptools
 BuildRequires:	python2-setuptools
+BuildRequires:	python-m2r
+BuildRequires:	python2-m2r
 BuildArch:	noarch
 
 %description
