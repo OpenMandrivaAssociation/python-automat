@@ -27,8 +27,7 @@ Group:		Development/Python
 Python 2.x library for finite-state machines
 
 %prep
-%setup -qn Automat-%{version}
-%apply_patches
+%autosetup -p1 -n Automat-%{version}
 
 mkdir python2
 mv `ls |grep -v python2` python2
