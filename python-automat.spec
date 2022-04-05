@@ -11,6 +11,7 @@ BuildRequires:	python-setuptools
 BuildRequires:	python-setuptools_scm
 BuildRequires:	python-m2r
 BuildRequires:	python-pip python-wheel
+BuildRequires:	python3dist(tomli)
 BuildArch:	noarch
 
 %description
