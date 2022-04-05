@@ -20,13 +20,14 @@ Python library for finite-state machines
 %autosetup -p1 -n Automat-%{version}
 
 %build
-python setup.py build
+mkdir wheels
+pip wheel --wheel-dir wheels --no-deps --no-build-isolation --verbose .
 
 %install
-python setup.py install --root=%{buildroot}
+pip install --root=%{buildroot} --no-deps --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links wheels wheels/*.whl
 
 %files
 %defattr(0644,root,root,0755)
 %{py_sitedir}/automat
-%{py_sitedir}/*.egg-info
+%{py_sitedir}/*.dist-info
 %{_bindir}/automat-visualize
