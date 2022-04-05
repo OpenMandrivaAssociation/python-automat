@@ -10,6 +10,7 @@ BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-setuptools
 BuildRequires:	python-setuptools_scm
 BuildRequires:	python-m2r
+BuildRequires:	python-pip python-wheel
 BuildArch:	noarch
 
 %description
