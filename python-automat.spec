@@ -1,7 +1,7 @@
 Summary:	Python library for finite-state machines
 Name:		python-automat
-Version:	20.2.0
-Release:	2
+Version:	22.10.0
+Release:	1
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/Automat/
